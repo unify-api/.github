@@ -1,83 +1,48 @@
-# UnifyAPI — The Universal CMS Integration Layer
+# 🧩 Unify Studio
 
-**UnifyAPI** is a platform that allows developers, teams, and businesses to seamlessly integrate multiple headless CMS platforms—such as Strapi, Directus, Payload, Prismic, and more—into a single, unified API. It eliminates the need for migrations or vendor lock-in, acting as a “content router” that normalizes and federates content from multiple sources for effortless delivery to any website, web app, or digital experience.  
+**The Home of Universal Solutions**
 
----
-
-## 🚀 Why UnifyAPI?
-
-Modern websites and apps often rely on multiple content sources: marketing pages in Prismic, blogs in Payload, and knowledge bases in Strapi, for example.  
-Traditionally, integrating multiple CMSes requires custom backend logic, complex APIs, or content duplication.  
-
-**UnifyAPI solves this by providing:**
-
-- A **single, unified API** for all connected CMSes  
-- Schema normalization so different CMS structures can be queried consistently  
-- Multi-CMS content federation, enabling any part of a website to pull from different systems  
-- Plug-and-play adapters for popular CMS platforms  
-- Real-time content sync via webhooks and caching for instant updates  
-- Developer-friendly SDKs, CLI tools, and integration helpers  
+Welcome to **Unify Studio**, a collective space where universal, scalable, and intelligent solutions are built — tools designed to unify development, automation, and digital experience under one ecosystem.
 
 ---
 
-## ✨ Key Features
+## 🌍 Vision
 
-| Feature | Description |
-|---------|-------------|
-| **Multi-CMS Integration** | Connect and manage multiple CMS providers in one unified layer. |
-| **Unified GraphQL/REST API** | Query all connected content through a consistent interface. |
-| **Adapter System** | Easily add or build adapters for new CMSes. |
-| **Content Federation** | Merge and normalize content from multiple sources. |
-| **Real-Time Sync** | Automatically update content when CMS data changes. |
-| **Developer SDKs & CLI** | Fast, seamless integration for modern frameworks and tools. |
-| **Secure by Design** | Encrypted connections, API keys, and role-based access control. |
+To create **universal systems** that streamline workflows across platforms — empowering developers, teams, and organizations to deploy, manage, and scale efficiently.
+
+We aim to simplify complexity through innovation — whether that’s in deployment automation, content management, or system integration.
 
 ---
 
-## 💡 Example Usage
+## 🧠 What We Build
 
-Imagine a website that uses different CMSes for different sections:
+Unify Studio is home to a growing suite of tools and frameworks, including:
 
-- **Blog posts** → Payload CMS  
-- **Marketing pages** → Prismic  
-- **Internal knowledge base** → Strapi  
+### 🏗️ Core Projects
+| Project | Description | Status |
+|----------|--------------|--------|
+| **Universal CMS** | A flexible, headless content management system that connects to any website or app. | 🚧 In Development |
+| **Unify Deploy** | A deployment CLI tool to deploy to vercel, netlify, Render, Heroku and other. | 🚀 Active |
+| **Unify API** | A universal integration layer connecting multiple systems through a single API. | 🧩 Planned |
+| **Unify Flow** | A workflow automation engine designed to unify triggers and actions across platforms. | 🧪 Experimental |
 
-Using UnifyAPI, you can fetch all content from a single endpoint:
+---
 
-```graphql
-query {
-  blogPosts {
-    title
-    body
-  }
-  marketingPages {
-    title
-    heroImage
-  }
-  knowledgeBaseArticles {
-    title
-    content
-  }
-}
-```
-🏗️ Who Is It For?
+## ⚙️ Our Principles
 
-Developers who want to integrate multiple CMSes without building complex middleware
+- **Universal by Design** – Solutions that can plug into any tech stack.  
+- **Open & Modular** – Every project is open for collaboration and extension.  
+- **Automation First** – Simplify repetitive work through intelligent automation.  
+- **Community Driven** – Built with developers, for developers.  
 
-Agencies managing multiple client sites with different CMS preferences
+---
 
-Enterprises needing a unified content layer across multiple systems
+## 🧭 Getting Started
 
-Startups wanting flexibility without lock-in
+Each repository under **Unify Studio** includes its own setup and contribution guide.
 
-🧭 Roadmap
+If you're new here:
+1. Browse the [repositories](https://github.com/orgs/unify-studio/repositories)  
+2. Read the individual project’s documentation  
+3. Fork, clone, and start contributing 🚀  
 
-Visual schema mapping for easier multi-CMS integration
-
-Plug-and-play adapter marketplace for third-party CMS platforms
-
-Edge caching and global content delivery
-
-Multi-tenant SaaS support for enterprise-grade projects
-
-Open-source SDKs for all major web frameworks
